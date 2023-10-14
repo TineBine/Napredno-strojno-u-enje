@@ -1,0 +1,18 @@
+Model type: moa.classifiers.trees.FIMTDD
+model training instances = 19.997
+model serialized size (bytes) = 4.492.192
+tree size (leaves) = 5
+Model description:
+if [att 5:c-1] <= 482.7855034: 
+  if [att 5:c-1] <= 73.24996473: 
+    if [att 5:c-1] <= -308.7409136: 
+      Leaf [class:c] = 0,4933 * [att 1:x] + 0,0448 * [att 2:y] -0,3900 * [att 3:c-3] -0,1655 * [att 4:c-2] + 1,0752 * [att 5:c-1] + 0.0027887816891413865
+    if [att 5:c-1] > -308.7409136: 
+      Leaf [class:c] = 0,4934 * [att 1:x] + 0,0458 * [att 2:y] -0,3898 * [att 3:c-3] -0,1653 * [att 4:c-2] + 1,0754 * [att 5:c-1] + 0.0020755956061890837
+  if [att 5:c-1] > 73.24996473: 
+    Leaf [class:c] = 0,4937 * [att 1:x] + 0,0491 * [att 2:y] -0,3893 * [att 3:c-3] -0,1648 * [att 4:c-2] + 1,0760 * [att 5:c-1] + -6.760799680783081E-4
+if [att 5:c-1] > 482.7855034: 
+  if [att 5:c-1] <= 2071.898498: 
+    Leaf [class:c] = 0,4914 * [att 1:x] + 0,0505 * [att 2:y] -0,3910 * [att 3:c-3] -0,1667 * [att 4:c-2] + 1,0739 * [att 5:c-1] + -0.003591265986818724
+  if [att 5:c-1] > 2071.898498: 
+    Leaf [class:c] = 0,4919 * [att 1:x] + 0,0529 * [att 2:y] -0,3900 * [att 3:c-3] -0,1658 * [att 4:c-2] + 1,0747 * [att 5:c-1] + -0.006667475432735022
